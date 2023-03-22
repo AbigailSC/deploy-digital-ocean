@@ -1,0 +1,20 @@
+[  
+  {    
+    "name": "Juan",    
+    "age": 25,    
+    "city": "Buenos Aires",    
+    "country": "Argentina"  
+  },  
+  {    
+    "name": "Ana",    
+    "age": 30,    
+    "city": "São Paulo",    
+    "country": "Brazil"  
+  },
+  {    
+    "name": "María",    
+    "age": 28,    
+    "city": "Montevideo",    
+    "country": "Uruguay"  
+  }
+]
