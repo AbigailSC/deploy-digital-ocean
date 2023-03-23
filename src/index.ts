@@ -1,6 +1,9 @@
 import express from "express";
 import mongoose, { ConnectOptions } from "mongoose";
+import dotenv from "dotenv";
 import userRoutes from "./routes/user.routes";
+
+dotenv.config();
 
 const URI = process.env.MONGOOSE_URI || "mongodb://127.0.0.1:27017/test-digital-ocean";
 const port = process.env.PORT || 3000;

@@ -1,8 +1,10 @@
 import { Router } from "express";
-import { createUser } from "../controllers/user.controller";
+import { createUser, sendCronMail } from "../controllers/user.controller";
 
 const router = Router();
 
 router.get("/all", createUser);
+
+router.post("/sendmail", sendCronMail);
 
 export default router;
